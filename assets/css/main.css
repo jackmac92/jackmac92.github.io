@@ -199,6 +199,7 @@ body {
   stroke: #3f88f8;
 }
 
+
 @keyframes rotate {
   100% {
     -webkit-transform: rotate(360deg);
