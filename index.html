@@ -33,14 +33,15 @@
   <link rel="stylesheet" href="assets/css/responsive.css">
 
   <!-- Choose your default colors -->
+  <!-- <link rel="stylesheet" href="assets/css/colors/color8.css"> -->
+
   <link rel="stylesheet" href="assets/css/colors/color1.css">
-  <!-- <link rel="stylesheet" href="assets/css/colors/color2.css"> -->
   <!-- <link rel="stylesheet" href="assets/css/colors/color3.css"> -->
   <!-- <link rel="stylesheet" href="assets/css/colors/color4.css"> -->
   <!-- <link rel="stylesheet" href="assets/css/colors/color5.css"> -->
   <!-- <link rel="stylesheet" href="assets/css/colors/color6.css"> -->
   <!-- <link rel="stylesheet" href="assets/css/colors/color7.css"> -->
-  <!-- <link rel="stylesheet" href="assets/css/colors/color8.css"> -->
+  <!-- <link rel="stylesheet" href="assets/css/colors/color2.css"> -->
 
   <!--[if lt IE 9]>
       <script src="assets/js/html5shiv.js"></script>
@@ -105,9 +106,9 @@
 
                     <li><a href="#about" data-section="#about" class="menu-smooth-scroll"><i class="fa fa-user fa-fw"></i>About Me</a>
                     </li>
-                    <li><a href="#resume" data-section="#resume" class="menu-smooth-scroll"><i class="fa fa-file-text fa-fw"></i>Resume</a>
-                    </li>
                     <li><a href="#portfolio" data-section="#portfolio" class="menu-smooth-scroll"><i class="fa fa-briefcase fa-fw"></i>Portfolio</a>
+                    </li>
+                    <li><a href="#resume" data-section="#resume" class="menu-smooth-scroll"><i class="fa fa-file-text fa-fw"></i>Resume</a>
                     </li>
                     <li><a href="#contact" data-section="#contact" class="menu-smooth-scroll"><i class="fa fa-paper-plane fa-fw"></i>Contact</a>
                     </li>
@@ -217,6 +218,132 @@
       <!-- .container end -->
     </section>
     <!-- #about Section end -->
+    <section id="portfolio" class="scroll-section root-sec white portfolio-wrap">
+      <div class="padd-tb-120 brand-bg portfolio-top">
+        <div class="portfolio-inner">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <h2 class="title">PORTFOLIO</h2>
+<!--                 <ul class="inline-menu clearfix portfolio-category" id="portfolio-msnry-sort">
+                  <li class="active"><a href="#" data-target="*">All</a>
+                  </li>
+                  <li><a href="#" data-target=".category-1">Ruby</a>
+                  </li>
+                  <li><a href="#" data-target=".category-2">JavaScript</a>
+                  </li>
+                  <li><a href="#" data-target=".category-3">Python</a>
+                  </li>
+                </ul>
+ -->              </div>
+            </div>
+          </div>
+        </div>
+        <!-- .container end -->
+      </div>
+      <div id="portfolioModal" class="modal white">
+        <div class="model-img"></div>
+        <div class="modal-content">
+          <h2 class="title">Lorem ipsum dolor sit fugit dolore.</h2>
+          <p class="m-content">A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior.</p>
+        </div>
+
+        <div class="modal-footer">
+          <a href="#" target="_blank" class="waves-effect btn-flat brand-text modal-action">Live Demo</a>
+          <a href="#" class="waves-effect btn-flat brand-text modal-action modal-close">cancel</a>
+        </div>
+      </div>
+
+      <div class="portfolio-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <ul class="clearfix protfolio-item" id="protfolio-msnry">
+              
+
+              <!-- Single Portfolio-->
+                <li class="single-port-item category-1 category-3">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" 
+                     data-image-source="images/sevensScreenshot.png" 
+                     data-title="Sevens" 
+                     data-content="Sevens is a game based on Threes" 
+                     data-demo-link="http://jackmac.me/Sevens"> <!-- Portfolio pop-up content-->
+                    <div class="protfolio-image">
+                      <img src="images/sevens.svg" alt="portfolio"> <!-- portfolio thumbnail-->
+                      <div class="protfolio-content waves-effect waves-block waves-light">
+                        <div class="protfolio-content__inner">
+                          <h2 class="p-title">Sevens</h2>
+                        </div>
+                      </div>
+                      <div class="p-overlay"></div>
+                    </div>
+                  </a>
+                </li>
+                <!--/ single portfolio -->
+                <!-- Single Portfolio-->
+                <li class="single-port-item category-2 category-1">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" 
+                     data-image-source="images/index_screenshot.png" 
+                     data-title="Mydium.io" 
+                     data-content="Mydium is a clone of medium." 
+                     data-demo-link="http://mydium.io">
+                    <div class="protfolio-image">
+                      <img src="images/podium.png" alt="portfolio">
+                      <div class="protfolio-content waves-effect waves-block waves-light">
+                        <div class="protfolio-content__inner">
+                          <h2 class="p-title">Mydium</h2>
+                        </div>
+                      </div>
+                      <div class="p-overlay"></div>
+                    </div>
+                  </a>
+                </li>
+                <!--/ single portfolio -->
+
+                <!-- Single Portfolio-->
+                <li class="single-port-item category-1 category-2">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" 
+                     data-image-source="images/chessScreenshot.png" 
+                     data-title="Chess" 
+                     data-content="RubyChess is a terminal based chess game" 
+                     data-demo-link="https://github.com/jackmac92/RubyChess">
+                    <div class="protfolio-image">
+                      <img src="images/chess.svg.png" alt="portfolio">
+                      <div class="protfolio-content waves-effect waves-block waves-light">
+                        <div class="protfolio-content__inner">
+                          <h2 class="p-title">Chess</h2>
+                        </div>
+                      </div>
+                      <div class="p-overlay"></div>
+                    </div>
+                  </a>
+                </li>
+                <!--/ single portfolio -->
+
+                <!-- Single Portfolio-->
+<!--                 <li class="single-port-item category-3">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="http://placehold.it/650x350" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
+                    <div class="protfolio-image">
+                      <img src="http://placehold.it/390x280" alt="portfolio">
+                      <div class="protfolio-content waves-effect waves-block waves-light">
+                        <div class="protfolio-content__inner">
+                          <h2 class="p-title">item name</h2>
+                        </div>
+                      </div>
+                      <div class="p-overlay"></div>
+                    </div>
+                  </a>
+                </li> -->
+                <!--/ single portfolio -->
+
+              </ul>
+              <!-- portfolio load more button-->
+              <!-- <a id="portfolio-item-loader" href="#" class="btn-floating btn-large waves-effect waves-light brand-bg"><i class="mdi-content-add"></i></a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Resume Section start -->
     <section id="resume" class="scroll-section ">
@@ -311,134 +438,6 @@
       </div>
         <!-- .container end -->
       </section>
-
-
-    <section id="portfolio" class="scroll-section root-sec white portfolio-wrap">
-      <div class="padd-tb-120 brand-bg portfolio-top">
-        <div class="portfolio-inner">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12">
-                <h2 class="title">PORTFOLIO</h2>
-<!--                 <ul class="inline-menu clearfix portfolio-category" id="portfolio-msnry-sort">
-                  <li class="active"><a href="#" data-target="*">All</a>
-                  </li>
-                  <li><a href="#" data-target=".category-1">Ruby</a>
-                  </li>
-                  <li><a href="#" data-target=".category-2">JavaScript</a>
-                  </li>
-                  <li><a href="#" data-target=".category-3">Python</a>
-                  </li>
-                </ul>
- -->              </div>
-            </div>
-          </div>
-        </div>
-        <!-- .container end -->
-      </div>
-      <div id="portfolioModal" class="modal white">
-        <div class="model-img"></div>
-        <div class="modal-content">
-          <h2 class="title">Lorem ipsum dolor sit fugit dolore.</h2>
-          <p class="m-content">A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior.</p>
-        </div>
-
-        <div class="modal-footer">
-          <a href="#" target="_blank" class="waves-effect btn-flat brand-text modal-action">Live Demo</a>
-          <a href="#" class="waves-effect btn-flat brand-text modal-action modal-close">cancel</a>
-        </div>
-      </div>
-
-      <div class="portfolio-bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <ul class="clearfix protfolio-item" id="protfolio-msnry">
-              
-
-                <!-- Single Portfolio-->
-                <li class="single-port-item category-2 category-1">
-                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" 
-                     data-image-source="images/index_screenshot.png" 
-                     data-title="Mydium.io" 
-                     data-content="Mydium is a clone of medium." 
-                     data-demo-link="http://mydium.io">
-                    <div class="protfolio-image">
-                      <img src="images/podium.png" alt="portfolio">
-                      <div class="protfolio-content waves-effect waves-block waves-light">
-                        <div class="protfolio-content__inner">
-                          <h2 class="p-title">Mydium</h2>
-                        </div>
-                      </div>
-                      <div class="p-overlay"></div>
-                    </div>
-                  </a>
-                </li>
-                <!--/ single portfolio -->
-              <!-- Single Portfolio-->
-                <li class="single-port-item category-1 category-3">
-                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" 
-                     data-image-source="images/sevensScreenshot.png" 
-                     data-title="Sevens" 
-                     data-content="Sevens is a game based on Threes" 
-                     data-demo-link="http://jackmac.me/Sevens"> <!-- Portfolio pop-up content-->
-                    <div class="protfolio-image">
-                      <img src="images/sevens.png" alt="portfolio"> <!-- portfolio thumbnail-->
-                      <div class="protfolio-content waves-effect waves-block waves-light">
-                        <div class="protfolio-content__inner">
-                          <h2 class="p-title">Sevens</h2>
-                        </div>
-                      </div>
-                      <div class="p-overlay"></div>
-                    </div>
-                  </a>
-                </li>
-                <!--/ single portfolio -->
-
-                <!-- Single Portfolio-->
-                <li class="single-port-item category-1 category-2">
-                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" 
-                     data-image-source="images/chessScreenshot.png" 
-                     data-title="Chess" 
-                     data-content="RubyChess is a terminal based chess game" 
-                     data-demo-link="https://github.com/jackmac92/RubyChess">
-                    <div class="protfolio-image">
-                      <img src="images/chess.svg.png" alt="portfolio">
-                      <div class="protfolio-content waves-effect waves-block waves-light">
-                        <div class="protfolio-content__inner">
-                          <h2 class="p-title">Chess</h2>
-                        </div>
-                      </div>
-                      <div class="p-overlay"></div>
-                    </div>
-                  </a>
-                </li>
-                <!--/ single portfolio -->
-
-                <!-- Single Portfolio-->
-<!--                 <li class="single-port-item category-3">
-                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="http://placehold.it/650x350" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
-                    <div class="protfolio-image">
-                      <img src="http://placehold.it/390x280" alt="portfolio">
-                      <div class="protfolio-content waves-effect waves-block waves-light">
-                        <div class="protfolio-content__inner">
-                          <h2 class="p-title">item name</h2>
-                        </div>
-                      </div>
-                      <div class="p-overlay"></div>
-                    </div>
-                  </a>
-                </li> -->
-                <!--/ single portfolio -->
-
-              </ul>
-              <!-- portfolio load more button-->
-              <!-- <a id="portfolio-item-loader" href="#" class="btn-floating btn-large waves-effect waves-light brand-bg"><i class="mdi-content-add"></i></a> -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
 
       <section id="education" class="root-sec grey lighten-5 padd-tb-120 education-wrap">
