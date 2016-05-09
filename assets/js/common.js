@@ -33,35 +33,35 @@ $(document).ready(function(){
 
 
 	// jwplayer video post
-	(function(){
-		$('.player').each(function(){
-			var $this = $(this),
-			defaults = {
-				fileSrc : '',
-				imageSrc : '',
-				id : '',
-				width : '100%',
-				height : '100%',
-				aspectratio : ''
-			},
-			config = {
-				fileSrc : $(this).data('file-sec') || defaults.fileSrc,
-				imageSrc : $(this).data('image-src') || defaults.imageSrc,
-				id : $(this).attr('id'),
-				width : $(this).data('width') || defaults.width,
-				height : $(this).data('height') || defaults.height,
-				aspectratio : $(this).data('aspectratio') || defaults.aspectratio
-			};
+	// (function(){
+	// 	$('.player').each(function(){
+	// 		var $this = $(this),
+	// 		defaults = {
+	// 			fileSrc : '',
+	// 			imageSrc : '',
+	// 			id : '',
+	// 			width : '100%',
+	// 			height : '100%',
+	// 			aspectratio : ''
+	// 		},
+	// 		config = {
+	// 			fileSrc : $(this).data('file-sec') || defaults.fileSrc,
+	// 			imageSrc : $(this).data('image-src') || defaults.imageSrc,
+	// 			id : $(this).attr('id'),
+	// 			width : $(this).data('width') || defaults.width,
+	// 			height : $(this).data('height') || defaults.height,
+	// 			aspectratio : $(this).data('aspectratio') || defaults.aspectratio
+	// 		};
 
-			jwplayer(config.id).setup({
-				file: config.fileSrc,
-				image: config.imageSrc,
-				width: config.width,
-				height: config.height,
-				aspectratio : config.aspectratio
-			});
-		});
-	}());
+	// 		jwplayer(config.id).setup({
+	// 			file: config.fileSrc,
+	// 			image: config.imageSrc,
+	// 			width: config.width,
+	// 			height: config.height,
+	// 			aspectratio : config.aspectratio
+	// 		});
+	// 	});
+	// }());
 
 
 	$("html").niceScroll({
