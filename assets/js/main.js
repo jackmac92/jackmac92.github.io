@@ -751,32 +751,37 @@ if ( $countNumb.length > 0 ) {
 // 		}
 // 	}
 
-	// $.ajax({
-	// 	type: "POST",
-	// 	url: "inc/sendEmail.php",
-	// 	data: data
-	// }).done(function(res){
+// 	$.ajax({
+// 		type: "POST",
+// 		url: "https://formspree.io/jmccown@colgate.edu",
+// 		data: data
+// 	}).done(function(res){
 
-	// 	var response = JSON.parse(res);
+// 		var response = JSON.parse(res);
+// 		debugger
 
-	// 	if ( response.OK ) {
-	// 		success(response);
-	// 	} else {
-	// 		error(response);
-	// 	}
+// 		if ( response.OK ) {
+// 			success(response);
+// 		} else {
+// 			error(response);
+// 		}
 
 
-	// 	var hand = setTimeout(function(){
-	// 		loader.hide();
-	// 		submitBtn.removeAttr('disabled');
-	// 		clearTimeout(hand);
-	// 	}, 1000);
+// 		var hand = setTimeout(function(){
+// 			loader.hide();
+// 			submitBtn.removeAttr('disabled');
+// 			clearTimeout(hand);
+// 		}, 1000);
 
-	// }).fail(function(){
-	// 	sweetAlert("Oops...", "Something went wrong, Try again later!", "error");
-	// 	var hand = setTimeout(function(){
-	// 		loader.hide();
-	// 		submitBtn.removeAttr('disabled');
-	// 		clearTimeout(hand);
-	// 	}, 1000);
-	// });
+// 	}).fail(function(res){
+// 		sweetAlert("Oops...", "Something went wrong, Try again later!", "error");
+// 		var hand = setTimeout(function(){
+// 			loader.hide();
+// 			submitBtn.removeAttr('disabled');
+// 			clearTimeout(hand);
+// 		}, 1000);
+// 	}).complete(function(res) {
+// 		console.log("Complete")
+// 		console.log(res)
+// 	});
+// });
